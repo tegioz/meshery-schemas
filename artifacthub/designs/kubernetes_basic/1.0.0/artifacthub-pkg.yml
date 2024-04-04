@@ -1,6 +1,6 @@
 version: 1.0.0
 name: kubernetes_basic
-displayName: kubernetes_basic
+displayName: Kubernetes Basic
 createdAt: "2024-03-21T14:19:01Z"
 description: Basic Kubernetes design deploying a service and pod
 license: Apache-2
@@ -17,4 +17,9 @@ links:
     - name: support
       url: https://discuss.layer5.io/
 provider:
-    name: meshery-maintainers
+    name: Meshery maintainers
+changes:
+  - kind: added
+    description: Initial release
+recommendations:
+  - url: https://artifacthub.io/packages/helm/meshery/meshery
